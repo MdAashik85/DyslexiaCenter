@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="ref2.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="nav.html"><img class="cha-header__logo" src="pic2.png" style="height:80px; width:80px"></a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="nav.html">Home</a></li>
+                    <li><a href="dys.html">Dyslexia</a></li>
+                    <li><a href="ana.html">Analysis</a></li>
+                    <li><a href="iq.html">IQ Testing</a></li>
+                    <li><a href="lit.html">Literature</a></li>
+                    <li><a href="ref.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <div style="height: 1000px">
+        <img class="ref1" src="ref2.jpg">
+        <img class="ref2" src="imag.jpeg">
+        <p class="myP">
+            <label for="name">Your name</label>
+            <input type="text" class="form-control" id="name" name="name" required> <br>
+            <label for="email">Your email</label>
+            <input type="email" class="form-control" id="email" name="email" required> <br>
+            <label for="subject">Subject</label>
+            <input type="text" class="form-control" id="subject" name="subject" required> <br>
+            <label for="message">Your message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </p>
+        </div>
+    <script src="script.js"></script>
+            <button class="bu" onclick="quote()">Something Specail For You!</button><br>
+            <p id="myP1"></p>
+            <footer>
+                <div class="myP">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo consectetur esse voluptates natus saepe, excepturi ducimus molestias. Vitae, illo at.
+                </div>
+            </footer>
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script> 
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis</title>
+    <link rel="icon" href="ana1.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="nav.html"><img class="cha-header__logo" src="pic2.png" style="height:80px; width:80px"></a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="nav.html">Home</a></li>
+                    <li><a href="dys.html">Dyslexia</a></li>
+                    <li><a href="ana.html">Analysis</a></li>
+                    <li><a href="iq.html">IQ Testing</a></li>
+                    <li><a href="lit.html">Literature</a></li>
+                    <li><a href="ref.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <div style="height: 1000px">
+            <img class="ana1" src="ana1.png">
+            <img class="ana2" src="image1.jpeg">
+    		<h2 class="myH2">Analysis</h2>
+			<p class="myP">Its about how we retrieve the SNPs from various tools using various parameters.
+                Here are the names of tools and their results.
+            </p>
+            <h2 class="myH2">Genes</h2>
+                <div id="mn">
+                    <p class="myH2">Click the Genes and get the results specicifically.</p>
+                    <p class="myP1">
+                        <a id="a3" target="_blank" href="atp2c2.html">1.ATP2C2</a><br><br>
+                        <a id="a3" target="_blank" href="drd2.html">2.DRD2</a><br><br>
+                        <a id="a3" target="_blank" href="bdnf.html">3.BDNF</a><br><br>
+                        <a id="a3" target="_blank" href="slc6a3.html">4.SLC6A3</a><br><br>
+                        <a id="a3" target="_blank" href="gcfc2.html">5.GCFC2</a><br><br>
+                        <a id="a3" target="_blank" href="grin2b.html">6.GRIN2B</a><br><br>
+                        <a id="a3" target="_blank" href="dnaaf4.html">7.DNAAF4</a><br><br>
+                        <a id="a3" target="_blank" href="otx1.html">8.OTX1</a><br>
+                    </p>
+                </div><br>
+    <script src="script.js"></script>
+            <button class="bu" onclick="quote()">Something Specail For You!</button><br><br>
+            <p id="myP1"></p>
+            <footer>
+                <div class="myP">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo consectetur esse voluptates natus saepe, excepturi ducimus molestias. Vitae, illo at.
+                </div>
+            </footer>
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script> 
+</body>
+</html>

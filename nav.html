@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="home1.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="nav.html"><img class="cha-header__logo" src="pic2.png" style="height:80px; width:80px"></a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="nav.html">Home</a></li>
+                    <li><a href="dys.html">Dyslexia</a></li>
+                    <li><a href="ana.html">Analysis</a></li>
+                    <li><a href="iq.html">IQ Testing</a></li>
+                    <li><a href="lit.html">Literature</a></li>
+                    <li><a href="ref.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    <section class="home">
+    </section>
+    <div style="height: 1000px">
+        <img class="nav1" src="home1.png">
+        <img class="nav2" src="Screenshot (56).png">
+    		<h2 class="myH2">Welcome to our DataBase:</h2>
+			<p class="myP">It's all about our data base and its uses among all of others with the distinct information. Mission of this research is to deploy adequate information about the disease through the prediction of mutations using a number of tools to predict the SNPs of the gene.
+                Also, our database holds information on epidemiology (prevalence and a particular region), Etiology (causes and origins), guidelines from the <b>WHO</b>, and many more publications.</p>
+            <p class="myP">
+                Welcome to the Dyslexia Assets Center, a broad asset intended to help you deal with the different parts of dyslexia with compassion and information. Our Data Center point offers exact and current data on a range of dyslexia types, like surface dyslexia and phonological dyslexia. We desire to give understanding and lucidity into the intricacies of this condition through our painstakingly picked articles, guides, and assets. Our Help Assets segment is dedicated to offering possible counsel, strategies, and organizations of help that are explicitly intended for relatives, parental figures, and dyslexia patients. It covers correspondence and survival techniques as well as building versatility to work on general personal satisfaction. We keep you refreshed on the latest advancements in dyslexia research, including potential treatments, clinical preliminaries, and state-of-the art disclosures, in our Exploration Bits of Knowledge segment. We work to close the gap between headways in science and functional applications, giving desire to what's to come. We perceive the tremendous impacts dyslexia has on individuals, families, and networks, and we are focused on supporting those influenced by this sickness in their process by offering a complete asset center that interfaces sympathy and information.
+            </p>
+	</div>
+    <script src="script.js"></script>
+            <button class="bu" onclick="quote()">Something Specail For You!</button><br><br>
+            <p id="myP1"></p>
+            <footer>
+                <div class="myP">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo consectetur esse voluptates natus saepe, excepturi ducimus molestias. Vitae, illo at.
+                </div>
+            </footer>
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script> 
+</body>
+</html>
